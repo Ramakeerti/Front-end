@@ -1,0 +1,75 @@
+<!--Grid is Two Dimentional Layout (Rows+columns)-->
+
+<!--Flex is 1-D Layout-->
+
+<head>
+
+    <title>Grid Properties</title>
+
+    <style>
+
+        div {
+
+            border: 2px solid red;
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            
+
+        }
+
+        div p {
+
+            border: 2px solid black;
+
+            padding: 20px;
+
+            background-color: aquamarine;
+
+            display: flex; justify-content: center;align-items: center;
+
+          
+
+        }
+
+ 
+
+        .p6{
+
+            /* grid-row: 1/2 */
+
+            grid-row-start: 1;
+
+            grid-row-end: 2;
+
+            grid-column: 2/3;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="outer">
+
+        <p class="p1">Product 1</p>
+
+        <p class="p2">Product 2</p>
+
+        <p class="p3">Product 3</p>
+
+        <p class="p4">Product 4</p>
+
+        <p class="p5">Product 5</p>
+
+        <p class="p6">Product 6</p>
+
+    </div>
+
+</body>
+
+</html>
